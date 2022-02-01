@@ -1,54 +1,95 @@
+html,
 body {
-    color:rgb(207, 142, 63); /*some sort of beige body*/
-    background-color: blanchedalmond;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
 }
 
-h1 {
-    font-size: 1.5em;
-    display: block;
-    background-color: cadetblue;
-    padding-left: 40px;
-    color: darkblue;
-    border: 2px solid #000;
+#Contact {
+  padding-top: 1%;
+  text-align: center;
+  color: white;
 }
 
-h2 {
-    font-size: 1em;
+.navbar {
+  background-color: rgb(125, 241, 241);
+}
+.footerfix {
+  height: 9rem;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 1%;
+  text-align: center;
+  background-color: rgb(125, 241, 241);
 }
 
-ul {
-    list-style-type: circle;
+.footButton {
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  display: inline-block;
 }
 
-ol {
-    list-style-type: lower-roman;
+.footButton:hover {
+  background-color: rgba(40, 120, 190, 0.37);
+  color: white !important;
 }
 
-a {
-    text-decoration: underline dotted black;
+#Contact {
+  color: white;
 }
 
-.exp {
-    color: darkgreen;
+.navbar-nav {
+  width: inherit;
+  font-size: 1.5em;
+  margin-left: 2%;
 }
 
-#proj {
-    background-color: rgb(29, 7, 7);
+.navbar-nav .nav-link:hover {
+  background-color: rgba(40, 120, 190, 0.37);
+  color: white !important;
 }
 
-#header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0);
 }
 
-.headera {
-    color: rgb(127, 212, 156);
-    float: left;
-    display: block;
-    padding: .5em;
-    background-color: rgb(95, 122, 85);
+.img {
+  max-width: 50%;
+}
+
+#headertext {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.col-8 {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-right: 2px dashed #f69c55;
+}
+
+.desc .col-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #f69c55;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.intro {
+  margin-top: 20px;
 }
