@@ -3,9 +3,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
 html {
   height: 100%;
 }
+
 body {
   position: relative;
   min-height: 100%;
@@ -20,9 +22,11 @@ body {
 .navbar {
   background-color: rgb(125, 241, 241);
 }
+
 .footerfix {
   height: 9rem;
 }
+
 .footer {
   position: absolute;
   right: 0;
@@ -92,4 +96,18 @@ body {
 
 .intro {
   margin-top: 20px;
+}
+
+#weather {
+  border-bottom: 2px dashed rgb(125, 241, 241);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#linedash {
+  border-right: 2px dashed rgb(125, 241, 241);
+}
+
+.new1 {
+  border-top: 2px dashed rgb(125, 241, 241);
 }

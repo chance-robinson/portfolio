@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css" />
-  <title>Creative Project 1</title>
+  <title>Weather Page</title>
 </head>
 
 <body>
@@ -31,12 +31,27 @@
 
   <div class="container">
     <div class="row">
-      <div class="col">
-        <object data="/images/resume.pdf" type="application/pdf" width="100%" height="800px">
-        </object>
+      <div class="col text-center" id="weather">
+        <form>
+          <label>Enter a U.S. city</label>
+          <input id="weatherInput" type="text"></input><br />
+          <input id="weatherSubmit" type="submit" value="Submit"></input>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4"  id="linedash">
+        <div id="weatherResults"></div>
+      </div>
+      <div class="col-4"  id="linedash">
+        <div id="3hourResults">
+        </div>
+      </div>
+      <div class="col-4">
+        <div id="forecastResults"></div>
       </div>
     </div>
   </div>
+  
   <div class="footerfix"></div>
   <div class="footer text-center fixed-bottom">
     <div class="container">
@@ -52,6 +67,8 @@
         <p id="Contact">2022 Copyright: Chance Robinson</p>
       </div>
 
+      <script src="moment.js"></script>
+      <script src="script.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
       </script>
